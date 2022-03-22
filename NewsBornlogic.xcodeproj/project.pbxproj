@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B119C727E9DF5E00ED730C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B119C627E9DF5E00ED730C /* AppDelegate.swift */; };
+		60B119C927E9DF5E00ED730C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B119C827E9DF5E00ED730C /* SceneDelegate.swift */; };
+		60B119CB27E9DF5E00ED730C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B119CA27E9DF5E00ED730C /* ViewController.swift */; };
+		60B119CE27E9DF5E00ED730C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B119CC27E9DF5E00ED730C /* Main.storyboard */; };
+		60B119D027E9DF6000ED730C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B119CF27E9DF6000ED730C /* Assets.xcassets */; };
+		60B119D327E9DF6000ED730C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B119D127E9DF6000ED730C /* LaunchScreen.storyboard */; };
+		60B119DE27E9DF6000ED730C /* NewsBornlogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B119DD27E9DF6000ED730C /* NewsBornlogicTests.swift */; };
+		60B119E827E9DF6000ED730C /* NewsBornlogicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B119E727E9DF6000ED730C /* NewsBornlogicUITests.swift */; };
+		60B119EA27E9DF6000ED730C /* NewsBornlogicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B119E927E9DF6000ED730C /* NewsBornlogicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B119DA27E9DF6000ED730C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B119BB27E9DF5E00ED730C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B119C227E9DF5E00ED730C;
+			remoteInfo = NewsBornlogic;
+		};
+		60B119E427E9DF6000ED730C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B119BB27E9DF5E00ED730C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B119C227E9DF5E00ED730C;
+			remoteInfo = NewsBornlogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60B119C327E9DF5E00ED730C /* NewsBornlogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsBornlogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B119C627E9DF5E00ED730C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60B119C827E9DF5E00ED730C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60B119CA27E9DF5E00ED730C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60B119CD27E9DF5E00ED730C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B119CF27E9DF6000ED730C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B119D227E9DF6000ED730C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B119D427E9DF6000ED730C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B119D927E9DF6000ED730C /* NewsBornlogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsBornlogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B119DD27E9DF6000ED730C /* NewsBornlogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBornlogicTests.swift; sourceTree = "<group>"; };
+		60B119E327E9DF6000ED730C /* NewsBornlogicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsBornlogicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B119E727E9DF6000ED730C /* NewsBornlogicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBornlogicUITests.swift; sourceTree = "<group>"; };
+		60B119E927E9DF6000ED730C /* NewsBornlogicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBornlogicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B119C027E9DF5E00ED730C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B119D627E9DF6000ED730C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B119E027E9DF6000ED730C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B119BA27E9DF5E00ED730C = {
+			isa = PBXGroup;
+			children = (
+				60B119C527E9DF5E00ED730C /* NewsBornlogic */,
+				60B119DC27E9DF6000ED730C /* NewsBornlogicTests */,
+				60B119E627E9DF6000ED730C /* NewsBornlogicUITests */,
+				60B119C427E9DF5E00ED730C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B119C427E9DF5E00ED730C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B119C327E9DF5E00ED730C /* NewsBornlogic.app */,
+				60B119D927E9DF6000ED730C /* NewsBornlogicTests.xctest */,
+				60B119E327E9DF6000ED730C /* NewsBornlogicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B119C527E9DF5E00ED730C /* NewsBornlogic */ = {
+			isa = PBXGroup;
+			children = (
+				60B119C627E9DF5E00ED730C /* AppDelegate.swift */,
+				60B119C827E9DF5E00ED730C /* SceneDelegate.swift */,
+				60B119CA27E9DF5E00ED730C /* ViewController.swift */,
+				60B119CC27E9DF5E00ED730C /* Main.storyboard */,
+				60B119CF27E9DF6000ED730C /* Assets.xcassets */,
+				60B119D127E9DF6000ED730C /* LaunchScreen.storyboard */,
+				60B119D427E9DF6000ED730C /* Info.plist */,
+			);
+			path = NewsBornlogic;
+			sourceTree = "<group>";
+		};
+		60B119DC27E9DF6000ED730C /* NewsBornlogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				60B119DD27E9DF6000ED730C /* NewsBornlogicTests.swift */,
+			);
+			path = NewsBornlogicTests;
+			sourceTree = "<group>";
+		};
+		60B119E627E9DF6000ED730C /* NewsBornlogicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60B119E727E9DF6000ED730C /* NewsBornlogicUITests.swift */,
+				60B119E927E9DF6000ED730C /* NewsBornlogicUITestsLaunchTests.swift */,
+			);
+			path = NewsBornlogicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B119C227E9DF5E00ED730C /* NewsBornlogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B119ED27E9DF6100ED730C /* Build configuration list for PBXNativeTarget "NewsBornlogic" */;
+			buildPhases = (
+				60B119BF27E9DF5E00ED730C /* Sources */,
+				60B119C027E9DF5E00ED730C /* Frameworks */,
+				60B119C127E9DF5E00ED730C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsBornlogic;
+			productName = NewsBornlogic;
+			productReference = 60B119C327E9DF5E00ED730C /* NewsBornlogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60B119D827E9DF6000ED730C /* NewsBornlogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B119F027E9DF6100ED730C /* Build configuration list for PBXNativeTarget "NewsBornlogicTests" */;
+			buildPhases = (
+				60B119D527E9DF6000ED730C /* Sources */,
+				60B119D627E9DF6000ED730C /* Frameworks */,
+				60B119D727E9DF6000ED730C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B119DB27E9DF6000ED730C /* PBXTargetDependency */,
+			);
+			name = NewsBornlogicTests;
+			productName = NewsBornlogicTests;
+			productReference = 60B119D927E9DF6000ED730C /* NewsBornlogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60B119E227E9DF6000ED730C /* NewsBornlogicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B119F327E9DF6100ED730C /* Build configuration list for PBXNativeTarget "NewsBornlogicUITests" */;
+			buildPhases = (
+				60B119DF27E9DF6000ED730C /* Sources */,
+				60B119E027E9DF6000ED730C /* Frameworks */,
+				60B119E127E9DF6000ED730C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60B119E527E9DF6000ED730C /* PBXTargetDependency */,
+			);
+			name = NewsBornlogicUITests;
+			productName = NewsBornlogicUITests;
+			productReference = 60B119E327E9DF6000ED730C /* NewsBornlogicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B119BB27E9DF5E00ED730C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					60B119C227E9DF5E00ED730C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					60B119D827E9DF6000ED730C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 60B119C227E9DF5E00ED730C;
+					};
+					60B119E227E9DF6000ED730C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 60B119C227E9DF5E00ED730C;
+					};
+				};
+			};
+			buildConfigurationList = 60B119BE27E9DF5E00ED730C /* Build configuration list for PBXProject "NewsBornlogic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B119BA27E9DF5E00ED730C;
+			productRefGroup = 60B119C427E9DF5E00ED730C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B119C227E9DF5E00ED730C /* NewsBornlogic */,
+				60B119D827E9DF6000ED730C /* NewsBornlogicTests */,
+				60B119E227E9DF6000ED730C /* NewsBornlogicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B119C127E9DF5E00ED730C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B119D327E9DF6000ED730C /* LaunchScreen.storyboard in Resources */,
+				60B119D027E9DF6000ED730C /* Assets.xcassets in Resources */,
+				60B119CE27E9DF5E00ED730C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B119D727E9DF6000ED730C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B119E127E9DF6000ED730C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B119BF27E9DF5E00ED730C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B119CB27E9DF5E00ED730C /* ViewController.swift in Sources */,
+				60B119C727E9DF5E00ED730C /* AppDelegate.swift in Sources */,
+				60B119C927E9DF5E00ED730C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B119D527E9DF6000ED730C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B119DE27E9DF6000ED730C /* NewsBornlogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B119DF27E9DF6000ED730C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B119E827E9DF6000ED730C /* NewsBornlogicUITests.swift in Sources */,
+				60B119EA27E9DF6000ED730C /* NewsBornlogicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60B119DB27E9DF6000ED730C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B119C227E9DF5E00ED730C /* NewsBornlogic */;
+			targetProxy = 60B119DA27E9DF6000ED730C /* PBXContainerItemProxy */;
+		};
+		60B119E527E9DF6000ED730C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60B119C227E9DF5E00ED730C /* NewsBornlogic */;
+			targetProxy = 60B119E427E9DF6000ED730C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B119CC27E9DF5E00ED730C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B119CD27E9DF5E00ED730C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60B119D127E9DF6000ED730C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B119D227E9DF6000ED730C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B119EB27E9DF6100ED730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60B119EC27E9DF6100ED730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B119EE27E9DF6100ED730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2QVXWD6KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewsBornlogic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagosoares.NewsBornlogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B119EF27E9DF6100ED730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2QVXWD6KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewsBornlogic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagosoares.NewsBornlogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60B119F127E9DF6100ED730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2QVXWD6KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagosoares.NewsBornlogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsBornlogic.app/NewsBornlogic";
+			};
+			name = Debug;
+		};
+		60B119F227E9DF6100ED730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2QVXWD6KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagosoares.NewsBornlogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsBornlogic.app/NewsBornlogic";
+			};
+			name = Release;
+		};
+		60B119F427E9DF6100ED730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2QVXWD6KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagosoares.NewsBornlogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewsBornlogic;
+			};
+			name = Debug;
+		};
+		60B119F527E9DF6100ED730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2QVXWD6KT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagosoares.NewsBornlogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewsBornlogic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B119BE27E9DF5E00ED730C /* Build configuration list for PBXProject "NewsBornlogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B119EB27E9DF6100ED730C /* Debug */,
+				60B119EC27E9DF6100ED730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B119ED27E9DF6100ED730C /* Build configuration list for PBXNativeTarget "NewsBornlogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B119EE27E9DF6100ED730C /* Debug */,
+				60B119EF27E9DF6100ED730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B119F027E9DF6100ED730C /* Build configuration list for PBXNativeTarget "NewsBornlogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B119F127E9DF6100ED730C /* Debug */,
+				60B119F227E9DF6100ED730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B119F327E9DF6100ED730C /* Build configuration list for PBXNativeTarget "NewsBornlogicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B119F427E9DF6100ED730C /* Debug */,
+				60B119F527E9DF6100ED730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B119BB27E9DF5E00ED730C /* Project object */;
+}
