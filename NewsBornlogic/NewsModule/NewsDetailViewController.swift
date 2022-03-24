@@ -115,7 +115,7 @@ class NewsDetailViewController: UIViewController {
         return stackView
     }()
     
-    let buttonOpenNews: UIButton = {
+    lazy var buttonOpenNews: UIButton = {
         let button = UIButton(type: .system)
         button.addTarget(self, action: #selector(openExternalLinkTapped), for: .touchUpInside)
         button.setImage(UIImage(named: "externalLink"), for: .normal)
